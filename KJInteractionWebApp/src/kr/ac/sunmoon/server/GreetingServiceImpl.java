@@ -29,6 +29,11 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 				+ userAgent;
 	}
 
+	private Object getServletContext() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	/**
 	 * Escape an html string. Escaping data received from the client helps to
 	 * prevent cross-site script vulnerabilities.
